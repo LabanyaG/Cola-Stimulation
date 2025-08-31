@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import math
 
 st.set_page_config(page_title="Cola Company Simulation", layout="wide")
-st.title("🥤 Cola Company Supply Chain Simulation")
+st.title("🥤 Cola Company Distribution Simulation")
 
 # ===============================
 # 1. Sidebar Inputs
@@ -243,3 +243,4 @@ if st.sidebar.button("▶️ Run Simulation"):
 
 else:
     st.warning("👈 Upload a CSV, set parameters, and click 'Run Simulation'.")
+
